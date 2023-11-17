@@ -1,77 +1,86 @@
+/* 全局样式设置 */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0;  /* 设置所有元素的外边距为0 */
+    padding: 0;  /* 设置所有元素的内边距为0 */
+    box-sizing: border-box;  /* 设置元素的宽高包括内边距和边框 */
 }
 
+/* body和html标签的样式 */
 body, html {
-    height: 100%;
-    font-family: Arial, sans-serif;
+    height: 100%;  /* 设置高度占满整个视口 */
+    font-family: Arial, sans-serif;  /* 设置字体为Arial，没有则回退到无衬线字体 */
 }
 
+/* 页面头部样式 */
 .header {
-    background-image: url('images/Header.png');
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    height: 300px; /* 调整高度以适应您的设计 */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
+    background-image: url('images/Header.png');  /* 设置头部背景图片 */
+    background-size: cover;  /* 背景图片覆盖整个元素 */
+    background-position: center;  /* 背景图片居中显示 */
+    position: relative;  /* 设置相对定位，为子绝对定位元素做参照 */
+    height: 300px;  /* 设置头部高度 */
+    display: flex;  /* 设置为弹性盒子布局 */
+    align-items: center;  /* 垂直居中对齐子元素 */
+    justify-content: center;  /* 水平居中对齐子元素 */
+    color: white;  /* 设置文字颜色为白色 */
 }
 
+/* LOGO图像样式 */
 .logo {
-    position: absolute;
-    top: 10px; /* 上边距，可调 */
-    left: 10px; /* 左边距，可调 */
-    height: 60px; /* Logo高度，可调 */
+    position: absolute;  /* 设置绝对定位，相对于最近的相对定位父元素 */
+    top: 10px;  /* 与顶部的距离 */
+    left: 10px;  /* 与左侧的距离 */
+    height: 60px;  /* LOGO的高度 */
 }
 
+/* 标语样式 */
 .slogan {
-    font-size: 2em;
-    font-weight: bold; /* 加粗文字 */
-    position: absolute;
-    top: 10px; /* 调整以使标语靠上 */
-    width: 100%;
-    text-align: center;
+    font-size: 2em;  /* 字体大小设为2em */
+    font-weight: bold;  /* 字体加粗 */
+    position: absolute;  /* 绝对定位 */
+    top: 10px;  /* 从顶部10px的位置开始 */
+    width: 100%;  /* 宽度占满整个父元素 */
+    text-align: center;  /* 文字水平居中 */
 }
 
+/* 侧边栏导航样式 */
 .sidebar {
-    position: absolute;
-    top: 0; /* 与头部对齐 */
-    left: 0;
-    width: 200px; /* 侧边栏宽度 */
-    height: 100%; /* 高度设置为整个视窗的高度 */
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* 垂直居中 */
+    position: absolute;  /* 绝对定位 */
+    top: 0;  /* 与顶部对齐 */
+    left: 0;  /* 与左侧对齐 */
+    width: 200px;  /* 设置侧边栏宽度 */
+    height: 100%;  /* 高度占满整个视口的高度 */
+    display: flex;  /* 弹性盒子布局 */
+    flex-direction: column;  /* 设置主轴方向为垂直方向 */
+    justify-content: center;  /* 垂直居中对齐子元素 */
 }
 
+/* 侧边栏链接样式 */
 .sidebar a {
-    color: black; /* 链接文字颜色 */
-    padding: 10px;
-    text-decoration: none;
-    text-align: center; /* 文字居中 */
+    color: black;  /* 链接文字颜色设为黑色 */
+    padding: 10px;  /* 链接内边距 */
+    text-decoration: none;  /* 去除下划线 */
+    text-align: center;  /* 文字居中 */
 }
 
+/* 主内容区域样式 */
 main {
-    margin-left: 200px; /* 保证主内容区域不与侧边栏重叠 */
-    padding: 20px;
+    margin-left: 200px;  /* 主内容的左外边距，以避免与侧边栏重叠 */
+    padding: 20px;  /* 内边距 */
 }
 
+/* 主内容区域的背景图片部分样式 */
 .content-section {
-    height: 300px; /* 背景图片区域的高度 */
-    background-image: url('images/Conment-1 Demo.png'); /* 内容部分图片路径 */
-    background-size: cover;
-    background-position: center;
+    height: 300px;  /* 背景图片区域的高度 */
+    background-image: url('images/Conment-1 Demo.png');  /* 背景图片路径 */
+    background-size: cover;  /* 背景图片覆盖 */
+    background-position: center;  /* 背景图片居中 */
 }
 
+/* 图片下方文本的样式 */
 .text-below-image {
-    /* 图片下方的文本样式 */
-    text-align: center; /* 文字居中 */
-    padding: 20px; /* 添加一些内边距 */
-    color: black; /* 文字颜色 */
-    font-size: 2em; /* 文字大小 */
+    text-align: center;  /* 文字居中 */
+    padding: 20px;  /* 内边距 */
+    color: black;  /* 文字颜色 */
+    font-size: 2em;  /* 文字大小 */
 }
 /* 响应式和其他样式 */
