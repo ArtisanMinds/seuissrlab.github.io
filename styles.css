@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-image: url('images/Header.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 300px; /* 调整高度以适应您的设计 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.logo {
+    position: absolute;
+    top: 10px; /* 上边距，可调 */
+    left: 10px; /* 左边距，可调 */
+    height: 60px; /* Logo高度，可调 */
+}
+
+.slogan {
+    font-size: 2em;
+    font-weight: bold; /* 加粗文字 */
+    position: absolute;
+    top: 10px; /* 调整以使标语靠上 */
+    width: 100%;
+    text-align: center;
+}
+
+.sidebar {
+    position: absolute;
+    top: 0; /* 与头部对齐 */
+    left: 0;
+    width: 200px; /* 侧边栏宽度 */
+    height: 100%; /* 高度设置为整个视窗的高度 */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* 垂直居中 */
+}
+
+.sidebar a {
+    color: black; /* 链接文字颜色 */
+    padding: 10px;
+    text-decoration: none;
+    text-align: center; /* 文字居中 */
+}
+
+main {
+    margin-left: 200px; /* 保证主内容区域不与侧边栏重叠 */
+    padding: 20px;
+}
+
+.content-section {
+    height: 300px; /* 背景图片区域的高度 */
+    background-image: url('images/Conment-1 Demo.png'); /* 内容部分图片路径 */
+    background-size: cover;
+    background-position: center;
+}
+
+.text-below-image {
+    /* 图片下方的文本样式 */
+    text-align: center; /* 文字居中 */
+    padding: 20px; /* 添加一些内边距 */
+    color: black; /* 文字颜色 */
+    font-size: 2em; /* 文字大小 */
+}
+/* 响应式和其他样式 */
