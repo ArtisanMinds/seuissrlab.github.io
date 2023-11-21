@@ -27,7 +27,7 @@ body, html {
 /* LOGO图像样式 */
 .logo {
     position: absolute;  /* 设置绝对定位，相对于最近的相对定位父元素 */
-    top: 10px;  /* 与顶部的距离 */
+    top: 20px;  /* 与顶部的距离 */
     left: 10px;  /* 与左侧的距离 */
     height: 60px;  /* LOGO的高度 */
 }
@@ -37,7 +37,7 @@ body, html {
     font-size: 2em;  /* 字体大小设为2em */
     font-weight: bold;  /* 字体加粗 */
     position: absolute;  /* 绝对定位 */
-    top: 10px;  /* 从顶部10px的位置开始 */
+    top: 20px;  /* 从顶部10px的位置开始 */
     width: 100%;  /* 宽度占满整个父元素 */
     text-align: center;  /* 文字水平居中 */
 }
