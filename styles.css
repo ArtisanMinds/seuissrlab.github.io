@@ -63,6 +63,7 @@ body, html {
 }
 /* 鼠标悬停时改变链接颜色 */
 .sidebar a:hover {
+    background-color: lightgrey; /* 设置鼠标悬停时的背景色为浅灰色 */
     color: blue;  /* 鼠标悬停时的颜色改为蓝色 */
 }
 
@@ -74,11 +75,10 @@ main {
 
 /* 主内容区域的背景图片部分样式 */
 .content-section {
-    padding-top: 300px;  /* 添加顶部内边距以推下内容，保证图片的完整展示 */
-    height: 300px;  /* 背景图片区域的高度 */
-    background-image: url('images/Conment-1 Demo.png');  /* 背景图片路径 */
-    background-size: cover;  /* 背景图片覆盖 */
-    background-position: center;  /* 背景图片居中 */
+    background-image: url('images/Conment-1 Demo.png');
+    background-size: contain; /* 根据容器大小显示图片。注：或使用 100% auto */
+    background-position: top center;
+    background-repeat: no-repeat; /* 避免图片重复 */
 }
 
 /* 图片下方文本的样式 */
