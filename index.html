@@ -52,5 +52,16 @@
               theoretical research and real-world applications. Join us on a journey of discovery and exploration into the future of robotics technology.</p>
         </div>
     </main>
+    <script>
+        <!-- 动态地加载并更新当前页面的内容 -->
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelector('.sidebar a[href="team.html"]').addEventListener('click', async (event) => {
+                event.preventDefault();
+                const response = await fetch('team.html');
+                const content = await response.text();
+                document.getElementById('main-content').innerHTML = content;
+            });
+        });
+    </script>
 </body>
 </html>
