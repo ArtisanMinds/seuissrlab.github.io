@@ -53,13 +53,17 @@ body, html {
     flex-direction: column;  /* 设置主轴方向为垂直方向 */
     justify-content: center;  /* 垂直居中对齐子元素 */
 }
-
 /* 侧边栏链接样式 */
 .sidebar a {
     color: black;  /* 链接文字颜色设为黑色 */
     padding: 10px;  /* 链接内边距 */
     text-decoration: none;  /* 去除下划线 */
     text-align: center;  /* 文字居中 */
+    transition: color 0.3s;  /* 添加颜色过渡动画 - 添加hover效果 */
+}
+/* 鼠标悬停时改变链接颜色 */
+.sidebar a:hover {
+    color: blue;  /* 鼠标悬停时的颜色改为蓝色 */
 }
 
 /* 主内容区域样式 */
@@ -70,6 +74,7 @@ main {
 
 /* 主内容区域的背景图片部分样式 */
 .content-section {
+    padding-top: 300px;  /* 添加顶部内边距以推下内容，保证图片的完整展示 */
     height: 300px;  /* 背景图片区域的高度 */
     background-image: url('images/Conment-1 Demo.png');  /* 背景图片路径 */
     background-size: cover;  /* 背景图片覆盖 */
