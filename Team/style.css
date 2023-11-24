@@ -1,0 +1,705 @@
+@font-face {
+  font-family: 'Inter-Black';
+  src: url('../Font-Inter/Inter-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url('../Font-Inter/Inter-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter-ExtraBold';
+  src: url('../Font-Inter/Inter-ExtraBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter-ExtraLight';
+  src: url('../Font-Inter/Inter-ExtraLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Inter-Light';
+  src: url('../Font-Inter/Inter-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter-Medium';
+  src: url('../Font-Inter/Inter-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url('../Font-Inter/Inter-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter-SemiBold';
+  src: url('../Font-Inter/Inter-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter-Thin';
+  src: url('../Font-Inter/Inter-Thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.mac-book-pro-16-1,
+.mac-book-pro-16-1 * {
+  box-sizing: border-box;
+}
+.mac-book-pro-16-1 {
+  background: #ffffff;
+  width: 1728px;
+  height: 3511px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-19 {
+  background: #eaeaea;
+  width: 1728px;
+  height: 283px;
+  position: absolute;
+  left: 0px;
+  top: 3228px;
+}
+.team {
+  color: #fccf00;
+  text-align: left;
+  font: 600 20px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 65px;
+  top: 3317px;
+  width: 60px;
+  height: 24px;
+}
+.news {
+  color: #587558;
+  text-align: left;
+  font: 600 20px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 65px;
+  top: 3354px;
+  width: 60px;
+  height: 23px;
+}
+.research {
+  color: #000000;
+  text-align: left;
+  font: 600 20px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 65px;
+  top: 3391px;
+  width: 95px;
+  height: 23px;
+}
+._1 {
+  width: 1728px;
+  height: 1621px;
+  position: absolute;
+  left: 0px;
+  top: 140px;
+}
+.rectangle-25 {
+  background: rgba(255, 255, 255, 0.88);
+  width: 1728px;
+  height: 1622px;
+  position: absolute;
+  left: 0px;
+  top: 139px;
+}
+.publications {
+  color: #000000;
+  text-align: left;
+  font: 800 20px "Inter-ExtraBold", sans-serif;
+  position: absolute;
+  left: 46px;
+  top: 325px;
+  width: 141px;
+  height: 23px;
+}
+.gallery {
+  color: #000000;
+  text-align: left;
+  font: 800 20px "Inter-ExtraBold", sans-serif;
+  position: absolute;
+  left: 46px;
+  top: 361px;
+  width: 111px;
+  height: 23px;
+}
+.gallery2 {
+  color: #000000;
+  text-align: left;
+  font: 600 20px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 65px;
+  top: 3464px;
+  width: 109px;
+  height: 24px;
+}
+.publications2 {
+  color: #000000;
+  text-align: left;
+  font: 600 20px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 65px;
+  top: 3428px;
+  width: 139px;
+  height: 23px;
+}
+.logo-1 {
+  width: 56px;
+  height: 60px;
+  position: absolute;
+  left: 1475px;
+  top: 3260px;
+}
+.logo-2 {
+  width: 60px;
+  height: 56px;
+  position: absolute;
+  left: 65px;
+  top: 3248px;
+}
+.team2 {
+  color: #000000;
+  text-align: left;
+  font: 700 48px "Inter-Bold", sans-serif;
+  position: absolute;
+  left: 791px;
+  top: 39px;
+  width: 147px;
+  height: 49px;
+}
+.image-2 {
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  left: 1553px;
+  top: 3262px;
+}
+.prof-qianqian-wang-intelligent-small-scale-robotics-lab-southeast-university {
+  color: #000000;
+  text-align: left;
+  font: 500 16px "Inter-Medium", sans-serif;
+  position: absolute;
+  left: 1475px;
+  top: 3340px;
+  width: 200px;
+  height: 90px;
+}
+.qianqian-wang {
+  color: #000000;
+  text-align: left;
+  font: 700 48px "Inter-Bold", sans-serif;
+  position: absolute;
+  left: 562px;
+  top: 210px;
+  width: 558px;
+  height: 58px;
+}
+.professor-school-of-mechanical-engineering-southeast-university {
+  color: #000000;
+  text-align: left;
+  font: 600 40px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 564px;
+  top: 282px;
+  width: 553px;
+  height: 143px;
+}
+.jiangsu-key-laboratory-for-design-and-manufacture-of-micro-nano-biomedical-instruments {
+  color: #6c6c6c;
+  text-align: left;
+  font: 600 27px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 566px;
+  top: 437px;
+  width: 465px;
+  height: 94px;
+}
+.qianqian-wang-is-current-a-professor-at-the-school-of-mechanical-engineering-southeast-university-seu-nanjing-china-he-received-his-ph-d-in-mechanical-and-automation-engineering-at-the-chinese-university-of-hong-kong-cuhk-in-2020-before-joining-seu-he-was-a-postdoctoral-fellow-in-the-department-of-mechanical-and-automation-engineering-at-cuhk-he-has-published-more-than-40-papers-in-peer-reviewed-journals-including-science-advances-science-robotics-nature-communications-acs-nano-and-ieee-transactions-series-t-cyber-t-mech-t-ase-t-bme-and-presented-his-work-in-ieee-icra-iros-etc-several-of-his-journal-papers-have-been-indexed-as-esi-highly-cited-papers-and-hot-papers-top-0-1-and-have-been-highlighted-in-nature-news-and-international-press-reports-his-research-focuses-on-the-micro-nano-robotics-field-including-collective-behaviors-of-micro-nanorobots-medical-imaging-guided-delivery-and-micromanipulation-he-has-been-selected-into-national-high-level-young-scholar-program-overseas {
+  color: #000000;
+  text-align: left;
+  font: 500 23px "Inter-Medium", sans-serif;
+  position: absolute;
+  left: 335px;
+  top: 572px;
+  width: 785px;
+  height: 480px;
+}
+.rectangle-24 {
+  width: 8px;
+  height: 442px;
+  position: absolute;
+  left: 301px;
+  top: 577px;
+  overflow: visible;
+}
+.wqq-1 {
+  width: 230px;
+  height: 313px;
+  position: absolute;
+  left: 301px;
+  top: 218px;
+}
+.rectangle-242 {
+  width: 8px;
+  height: 34px;
+  position: absolute;
+  left: 87px;
+  top: 1104px;
+  overflow: visible;
+}
+.rectangle-26 {
+  width: 8px;
+  height: 34px;
+  position: absolute;
+  left: 87px;
+  top: 1843px;
+  overflow: visible;
+}
+.frame-10 {
+  padding: 10px;
+  width: 373px;
+  height: 788px;
+  position: absolute;
+  left: 1254px;
+  top: 266px;
+}
+.google-1 {
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  left: 2px;
+  top: 193px;
+}
+.https-scholar-google-com-hk-citations-user-qf-45-p-ss-aaaaj-hl-en {
+  color: #000000;
+  text-align: left;
+  font: 600 30px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 2px;
+  top: 284px;
+  width: 356px;
+  height: 188px;
+}
+.southeast-university-jiulonghu-campus-mechanical-building-room-355 {
+  color: #000000;
+  text-align: left;
+  font: 600 30px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 599px;
+  width: 356px;
+  height: 157px;
+}
+.qqwang-seu-edu-cn {
+  color: #000000;
+  text-align: left;
+  font: 600 34px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 102px;
+  width: 365px;
+  height: 57px;
+}
+._12 {
+  width: 59px;
+  height: 71px;
+  position: absolute;
+  left: 7px;
+  top: 3px;
+}
+._13 {
+  width: 88px;
+  height: 88px;
+  position: absolute;
+  left: -10px;
+  top: -21px;
+}
+._14 {
+  width: 57px;
+  height: 57px;
+  position: absolute;
+  left: 0px;
+  top: 507px;
+}
+.news2 {
+  color: #000000;
+  text-align: left;
+  font: 800 20px "Inter-ExtraBold", sans-serif;
+  position: absolute;
+  left: 46px;
+  top: 253px;
+  width: 61px;
+  height: 23px;
+}
+.team3 {
+  color: #000000;
+  text-align: left;
+  font: 800 20px "Inter-ExtraBold", sans-serif;
+  position: absolute;
+  left: 46px;
+  top: 217px;
+  width: 61px;
+  height: 23px;
+}
+.research2 {
+  color: #000000;
+  text-align: left;
+  font: 800 20px "Inter-ExtraBold", sans-serif;
+  position: absolute;
+  left: 46px;
+  top: 289px;
+  width: 96px;
+  height: 23px;
+}
+.yimin-sun-who-graduated-with-a-master-s-degree-from-the-school-of-mechanical-engineering-at-nanjing-university-of-science-and-technology-joined-qianqian-wang-s-group-in-2023-where-he-will-spend-his-ph-d-in-the-areas-of-automated-magnetic-manipulation-control-algorithms-and-deep-learning {
+  color: #000000;
+  text-align: left;
+  font: 500 23px "Inter-Medium", sans-serif;
+  position: absolute;
+  left: 92px;
+  top: 1546px;
+  width: 464px;
+  height: 224px;
+}
+.haoyu-zhang-will-join-in-our-research-club-in-2024-he-is-currently-working-toward-the-eng-degree-with-the-southeast-university-nan-jing-china-his-research-interests-collective-behaviors-of-micro-nanorobots-design-and-control-of-swarm-system {
+  color: #000000;
+  text-align: left;
+  font: 500 23px "Inter-Medium", sans-serif;
+  position: absolute;
+  left: 614px;
+  top: 1546px;
+  width: 464px;
+  height: 190px;
+}
+.ying-cao {
+  color: #000000;
+  text-align: left;
+  font: 600 40px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 616px;
+  top: 2240px;
+  width: 237px;
+  height: 38px;
+}
+.mr-qijun-yang-joined-our-team-in-2023-he-received-his-bachelor-of-arts-degree-in-2021-from-sichuan-normal-university-his-research-interests-in-multimodal-human-computer-interaction {
+  color: #000000;
+  text-align: left;
+  font: 500 23px "Inter-Medium", sans-serif;
+  position: absolute;
+  left: 1153px;
+  top: 2298px;
+  width: 477px;
+  height: 168px;
+}
+.qijun-yang {
+  color: #000000;
+  text-align: left;
+  font: 600 40px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 1153px;
+  top: 2240px;
+  width: 422px;
+  height: 41px;
+}
+.ph-d-student {
+  color: #000000;
+  text-align: left;
+  font: 600 47px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 111px;
+  top: 1092px;
+  width: 369px;
+  height: 58px;
+}
+.m-eng-student {
+  color: #000000;
+  text-align: left;
+  font: 600 47px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 111px;
+  top: 1831px;
+  width: 369px;
+  height: 58px;
+}
+.mr-ying-cao-joined-qianqian-wang-s-team-in-2023-he-received-his-bachelor-of-engineering-degree-from-the-school-of-mechanical-engineering-in-hefei-university-of-technology-in-2023-his-research-interests-focus-on-automated-magnetic-control-of-microrobots-and-construction-of-magnetic-mobile-device {
+  color: #000000;
+  text-align: left;
+  font: 500 23px "Inter-Medium", sans-serif;
+  position: absolute;
+  left: 616px;
+  top: 2298px;
+  width: 477px;
+  height: 221px;
+}
+._05-a-0279743-ff-2763-b-3-b-725-bd-0-c-40-a-74-2 {
+  width: 194px;
+  height: 263px;
+  position: absolute;
+  left: 898px;
+  top: 1962px;
+}
+.mr-jian-sheng-du-will-join-our-group-in-2024-jian-sheng-du-received-his-exemption-from-southeast-university-in-2023-afterresearch-study-in-mr-qianqian-wang-sgroup-his-main-research-interests-are-ultrasound-imaging-in-microrobotic-control {
+  color: #000000;
+  text-align: left;
+  font: 500 23px "Inter-Medium", sans-serif;
+  position: absolute;
+  left: 615px;
+  top: 2892px;
+  width: 469px;
+  height: 189px;
+}
+._05-a-0279743-ff-2763-b-3-b-725-bd-0-c-40-a-74-22 {
+  width: 194px;
+  height: 263px;
+  position: absolute;
+  left: 615px;
+  top: 2557px;
+}
+.eeb-02445-eace-4200-b-67736-f-510-e-71-c-6-1 {
+  width: 192px;
+  height: 263px;
+  position: absolute;
+  left: 616px;
+  top: 2554px;
+}
+._05-a-0279743-ff-2763-b-3-b-725-bd-0-c-40-a-74-23 {
+  width: 194px;
+  height: 263px;
+  position: absolute;
+  left: 615px;
+  top: 1223px;
+}
+._748-b-0-caa-06-f-97-bacf-7325656-ab-22-fa-0-1 {
+  width: 194px;
+  height: 262px;
+  position: absolute;
+  left: 615px;
+  top: 1220px;
+}
+.haoyu-zhang {
+  color: #000000;
+  text-align: left;
+  font: 600 40px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 613px;
+  top: 1494px;
+  width: 316px;
+  height: 42px;
+}
+._4379-ddbcda-9-d-4-de-9682972-ebc-2-f-9-b-5-a-1 {
+  width: 197px;
+  height: 263px;
+  position: absolute;
+  left: 1431px;
+  top: 1962px;
+}
+.yimin-sun {
+  color: #000000;
+  text-align: left;
+  font: 600 40px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 90px;
+  top: 1494px;
+  width: 237px;
+  height: 42px;
+}
+._31566-c-5-a-229739-f-81-b-5-b-16-b-19-f-9-c-59-d-1 {
+  width: 194px;
+  height: 262px;
+  position: absolute;
+  left: 90px;
+  top: 1220px;
+}
+.we-look-forward-to-the-next-person-who-will-create-the-future-with-us {
+  color: #000000;
+  text-align: left;
+  font: 800 36px "Inter-ExtraBold", sans-serif;
+  position: absolute;
+  left: 1153px;
+  top: 1572px;
+  width: 508px;
+  height: 176px;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.ellipse-1 {
+  background: #000000;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 1575px;
+  top: 1736px;
+}
+.ellipse-2 {
+  background: #000000;
+  border-radius: 50%;
+  width: 15px;
+  height: 16px;
+  position: absolute;
+  left: 1595px;
+  top: 1736px;
+}
+.ellipse-3 {
+  background: #000000;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 1614px;
+  top: 1736px;
+}
+.we-look-forward-to-the-next-person-who-will-create-the-future-with-us2 {
+  color: #000000;
+  text-align: left;
+  font: 800 36px "Inter-ExtraBold", sans-serif;
+  position: absolute;
+  left: 1153px;
+  top: 2890px;
+  width: 489px;
+  height: 176px;
+}
+.ellipse-12 {
+  background: #000000;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 1575px;
+  top: 3065px;
+}
+.ellipse-22 {
+  background: #000000;
+  border-radius: 50%;
+  width: 15px;
+  height: 16px;
+  position: absolute;
+  left: 1595px;
+  top: 3065px;
+}
+.ellipse-32 {
+  background: #000000;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  left: 1614px;
+  top: 3065px;
+}
+.mr-bin-wang-will-join-our-group-in-2024-mr-bin-wang-received-his-exemption-from-southeast-university-in-2023-after-research-study-in-mr-qianqian-wang-s-group-his-main-research-interests-are-magnetron-3-d-printing-and-related-applications {
+  color: #000000;
+  text-align: left;
+  font: 500 23px "Inter-Medium", sans-serif;
+  position: absolute;
+  left: 90px;
+  top: 2892px;
+  width: 477px;
+  height: 192px;
+}
+.bin-wang {
+  color: #000000;
+  text-align: left;
+  font: 600 40px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 87px;
+  top: 2826px;
+  width: 237px;
+  height: 40px;
+}
+.a-42-f-5-cc-98587-f-39005-e-56-a-5-d-248-b-059-1 {
+  width: 194px;
+  height: 263px;
+  position: absolute;
+  left: 90px;
+  top: 2554px;
+}
+.logo-3 {
+  width: 206px;
+  height: 103px;
+  position: absolute;
+  left: 68px;
+  top: 18px;
+}
+._15 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1663px;
+  top: 56px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(-1, 1);
+}
+._16 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1520px;
+  top: 56px;
+}
+.mr-yuanbiao-ma-joined-qianqian-wang-s-team-in-2023-he-received-his-bachelor-of-engineering-degree-in-mechanical-engineering-from-hefei-university-of-technology-in-2023-his-research-interests-include-magnetically-controlled-soft-robotics-and-control-system-based-on-permanent-magnet {
+  color: #000000;
+  text-align: left;
+  font: 500 23px "Inter-Medium", sans-serif;
+  position: absolute;
+  left: 88px;
+  top: 2298px;
+  width: 469px;
+  height: 224px;
+}
+._5-f-9-f-7-ca-58-f-394-b-9394-da-7-f-51-f-7957-a-2-1 {
+  width: 193px;
+  height: 263px;
+  position: absolute;
+  left: 364px;
+  top: 1962px;
+}
+.yuanbiao-ma {
+  color: #000000;
+  text-align: left;
+  font: 600 40px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 88px;
+  top: 2240px;
+  width: 344px;
+  height: 41px;
+}
+.jiansheng-du {
+  color: #000000;
+  text-align: left;
+  font: 600 40px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 615px;
+  top: 2825px;
+  width: 286px;
+  height: 39px;
+}
+._17 {
+  width: 29px;
+  height: 24px;
+  position: absolute;
+  left: 1577px;
+  top: 56px;
+}
