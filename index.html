@@ -1,67 +1,216 @@
 <!DOCTYPE html>
-<!-- <html>页面使用的语言是en -->
 <html lang="en">
-    
-<!-- 标题栏 -->
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- 定义了浏览器标签页显示的网站图标 -->
-    <link rel="icon" href="images/SEUemblem.jpg">
-    <!-- 显示在浏览器标题栏或标签页上的文档标题 -->
-    <title>Wang Qianqian LAB</title>
-    <!-- 设置页面的样式 -->    
-    <link rel="stylesheet" href="styles.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./vars.css" />
+    <link rel="stylesheet" href="./style.css" />
 
-<body>
-    <!-- 标题栏部分内容 -->
-    <div class="header">
-        <!-- 展示了实验室的LOGO -->       
-        <img src="images/LOGO.png" alt="LOGO" class="logo">
-        <!-- 实验室的口号 -->
-        <div class="slogan">We are creating the future!</div>
-    </div>
+    <style>
+      a,
+      button,
+      input,
+      select,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      * {
+        margin: 0;
+        padding: 0;
+        border: none;
+        text-decoration: none;
+        appearance: none;
+        background: none;
 
-    <!-- 定义了一组作为侧边栏显示的导航链接 -->
-    <nav class="sidebar">
-        
-        <a href="team.html">Team</a>
-
-        <a href="#news">News</a>
-
-        <a href="#research">Research</a>
-
-        <a href="#publications">Publications</a>
-
-        <a href="#gallery">Gallery</a>
-    </nav>
-    
-    <!-- 文档的主要内容 -->
-    <main>
-        <!-- <section>元素用于包含内容的主题分组，这里用于背景图片 -->
-        <section class="content-section">
-
-        </section>
-        <!-- 一个位于背景图片部分下方的<div>，包含描述性文本 -->
-        <div class="text-below-image">         
-            <!-- 信息和简要介绍 -->
-            <p>Welcome to the Intelligent Small-Scale Robot Laboratory (ISSRLAB) at Southeast University. Directed by Chief Young Professor Qianqian Wang 
-              from the School of Mechanical Engineering, our lab is dedicated to pioneering research and innovation in the field of micro and small-scale 
-              intelligent robotics. We focus on the design, development, and integration of advanced robotic systems that aim to bridge the gap between 
-              theoretical research and real-world applications. Join us on a journey of discovery and exploration into the future of robotics technology.</p>
-        </div>
-    </main>
+        -webkit-font-smoothing: antialiased;
+      }
+    </style>
+    <title>Document</title>
     <script>
-        <!-- 动态地加载并更新当前页面的内容 -->
-        document.addEventListener('DOMContentLoaded', () => {
-            document.querySelector('.sidebar a[href="team.html"]').addEventListener('click', async (event) => {
-                event.preventDefault();
-                const response = await fetch('team.html');
-                const content = await response.text();
-                document.getElementById('main-content').innerHTML = content;
-            });
-        });
+      window.onload = function() {
+        var scale = window.innerWidth / 1744; // 1728px是设计宽度
+        document.body.style.transform = 'scale(' + scale + ')';
+        document.body.style.transformOrigin = 'top left';
+        document.body.style.width = (1744 * scale) + 'px';
+      };
     </script>
-</body>
+  </head>
+  <body class="container">
+    <div class="mac-book-pro-16-1">
+      <div class="rectangle-19"></div>
+      <div class="rectangle-17"></div>
+      <div class="rectangle-20"></div>
+      <img class="image-1" src="image-10.png" />
+      <a href="../Team/index.html" class="team">Team</a>
+      <a href="../Team/index.html" class="team2">Team</a>
+      <a href="../News/index.html" class="news">News</a>
+      <a href="../News/index.html"class="news2">News</a>
+      <a href="" class="research">Research</a>
+      <a href="" class="research2">Research</a>
+      <a href="../Publications/index.html" class="publications">Publications</a>
+      <a href="../Publications/index.html" class="publications2">Publications</a>
+      <a href="" class="gallery">Gallery</a>
+      <a href="" class="gallery2">Gallery</a>
+      <img
+        class="c-0038445-b-185-d-22284-bc-04-c-51-e-32778-1"
+        src="c-0038445-b-185-d-22284-bc-04-c-51-e-32778-10.png"
+      />
+      <div class="component-10">
+        <div class="ellipse-1"></div>
+        <div class="ellipse-2"></div>
+        <div class="ellipse-3"></div>
+        <div class="ellipse-4"></div>
+        <div class="ellipse-5"></div>
+        <div class="ellipse-6"></div>
+        <div class="ellipse-7"></div>
+        <div class="ellipse-8"></div>
+      </div>
+      <img class="_1" src="_10.png" /><img class="_2" src="_20.png" />
+      <div class="introduction">Introduction</div>
+      <div class="news3">News</div>
+      <img class="logo-1" src="logo-10.png" /><img
+        class="logo-2"
+        src="logo-20.png"
+      /><img class="logo-12" src="logo-11.png" /><img
+        class="_12"
+        src="_11.png"
+      />
+      <div class="rectangle-21"></div>
+      <div class="rectangle-22"></div>
+      <div
+        class="about-the-lab-the-intelligent-small-scale-robotics-lab-issrl-is-directed-by-prof-qianqian-wang-chinese-our-lab-studie-small-scale-robotics-microrobotic-swarm-dynamic-self-assembly-and-micromanipulation-our-lab-has-been-sponsored-by-various-funding-bodies-inlcuding-the-national-natural-science-foundation-of-china-department-of-science-and-technology-of-jiangsu-province-and-xiaomi"
+      >
+        <span
+          ><span
+            class="about-the-lab-the-intelligent-small-scale-robotics-lab-issrl-is-directed-by-prof-qianqian-wang-chinese-our-lab-studie-small-scale-robotics-microrobotic-swarm-dynamic-self-assembly-and-micromanipulation-our-lab-has-been-sponsored-by-various-funding-bodies-inlcuding-the-national-natural-science-foundation-of-china-department-of-science-and-technology-of-jiangsu-province-and-xiaomi-span"
+            >About the lab: The Intelligent Small-scale Robotics Lab (ISSRL)
+            (智能小尺度机器人实验室) is directed by </span
+          ><span
+            class="about-the-lab-the-intelligent-small-scale-robotics-lab-issrl-is-directed-by-prof-qianqian-wang-chinese-our-lab-studie-small-scale-robotics-microrobotic-swarm-dynamic-self-assembly-and-micromanipulation-our-lab-has-been-sponsored-by-various-funding-bodies-inlcuding-the-national-natural-science-foundation-of-china-department-of-science-and-technology-of-jiangsu-province-and-xiaomi-span2"
+            >Prof.</span
+          ><span
+            class="about-the-lab-the-intelligent-small-scale-robotics-lab-issrl-is-directed-by-prof-qianqian-wang-chinese-our-lab-studie-small-scale-robotics-microrobotic-swarm-dynamic-self-assembly-and-micromanipulation-our-lab-has-been-sponsored-by-various-funding-bodies-inlcuding-the-national-natural-science-foundation-of-china-department-of-science-and-technology-of-jiangsu-province-and-xiaomi-span3"
+          >
+            Qianqian Wang (Chinese: 王乾乾). Our lab studie small-scale robotics
+            (小尺度机器人学), microrobotic swarm (微机器人集群系统),dynamic
+            self-assembly and micromanipulation (磁驱动的动态自组装及微操作).
+            Our lab has been sponsored by various funding bodies, inlcuding the
+            National Natural Science Foundation of China
+            (国家自然科学基金委员会), Department of Science and Technology of
+            Jiangsu Province (江苏省科学技术厅) and Xiaomi (小米).
+          </span></span
+        >
+      </div>
+      <div
+        class="_2023-11-dr-wang-won-the-open-science-excellent-author-program-due-to-the-high-impact-of-our-advanced-intelligent-systems-article-link-which-received-more-than-6-000-downloads-in-3-months-from-worldside-researchers-2023-09-2023-l-ink-2023-09-our-springer-book-entitled-magnetic-micro-and-nanorobot-swarms-from-fundamentals-to-applications-is-online-this-book-is-focused-on-the-attractive-emerging-field-of-micro-nanorobot-swarms-microswarms-it-introduces-fundamental-understandings-of-various-microswarms-and-demonstrates-applications-of-micro-nanorobot-swarms-in-different-fields-link-2023-08-dr-wang-won-the-mine-outstanding-young-scientist-award-mine-2023-link-2023-03-our-science-advances-paper-ultrasound-doppler-guided-real-time-navigation-of-a-magnetic-microswarm-for-active-endovascular-delivery-has-been-highlighted-as-hot-paper-top-0-1-link-2022-11-dr-wang-won-the-1st-xiaomi-young-talents-program"
+      >
+        <span
+          ><span
+            class="_2023-11-dr-wang-won-the-open-science-excellent-author-program-due-to-the-high-impact-of-our-advanced-intelligent-systems-article-link-which-received-more-than-6-000-downloads-in-3-months-from-worldside-researchers-2023-09-2023-l-ink-2023-09-our-springer-book-entitled-magnetic-micro-and-nanorobot-swarms-from-fundamentals-to-applications-is-online-this-book-is-focused-on-the-attractive-emerging-field-of-micro-nanorobot-swarms-microswarms-it-introduces-fundamental-understandings-of-various-microswarms-and-demonstrates-applications-of-micro-nanorobot-swarms-in-different-fields-link-2023-08-dr-wang-won-the-mine-outstanding-young-scientist-award-mine-2023-link-2023-03-our-science-advances-paper-ultrasound-doppler-guided-real-time-navigation-of-a-magnetic-microswarm-for-active-endovascular-delivery-has-been-highlighted-as-hot-paper-top-0-1-link-2022-11-dr-wang-won-the-1st-xiaomi-young-talents-program-span"
+            >[2023. 11] Dr. Wang won the &quot;Open Science Excellent Author
+            Program&quot; due to the high impact of our Advanced Intelligent
+            Systems article </span
+          ><span
+            class="_2023-span2"
+            ><a href="https://onlinelibrary.wiley.com/doi/10.1002/aisy.202300108">[Link]</a></span
+          ><span
+            class="_2023-11-dr-wang-won-the-open-science-excellent-author-program-due-to-the-high-impact-of-our-advanced-intelligent-systems-article-link-which-received-more-than-6-000-downloads-in-3-months-from-worldside-researchers-2023-09-2023-l-ink-2023-09-our-springer-book-entitled-magnetic-micro-and-nanorobot-swarms-from-fundamentals-to-applications-is-online-this-book-is-focused-on-the-attractive-emerging-field-of-micro-nanorobot-swarms-microswarms-it-introduces-fundamental-understandings-of-various-microswarms-and-demonstrates-applications-of-micro-nanorobot-swarms-in-different-fields-link-2023-08-dr-wang-won-the-mine-outstanding-young-scientist-award-mine-2023-link-2023-03-our-science-advances-paper-ultrasound-doppler-guided-real-time-navigation-of-a-magnetic-microswarm-for-active-endovascular-delivery-has-been-highlighted-as-hot-paper-top-0-1-link-2022-11-dr-wang-won-the-1st-xiaomi-young-talents-program-span3"
+            >, which received more than 6,000 downloads in 3 months from
+            worldside researchers.<br /><br />[2023. 09]
+            王老师于2023年教师节庆祝大会作为青年教师代表发言，分享了对教育和教师使命的思考和感悟。</span
+          ><span
+            class="_2023-span4"
+            ><a href="https://news.seu.edu.cn/2023/0908/c5486a463987/page.htm">[Link]</a></span
+          ><span
+            class="_2023-11-dr-wang-won-the-open-science-excellent-author-program-due-to-the-high-impact-of-our-advanced-intelligent-systems-article-link-which-received-more-than-6-000-downloads-in-3-months-from-worldside-researchers-2023-09-2023-l-ink-2023-09-our-springer-book-entitled-magnetic-micro-and-nanorobot-swarms-from-fundamentals-to-applications-is-online-this-book-is-focused-on-the-attractive-emerging-field-of-micro-nanorobot-swarms-microswarms-it-introduces-fundamental-understandings-of-various-microswarms-and-demonstrates-applications-of-micro-nanorobot-swarms-in-different-fields-link-2023-08-dr-wang-won-the-mine-outstanding-young-scientist-award-mine-2023-link-2023-03-our-science-advances-paper-ultrasound-doppler-guided-real-time-navigation-of-a-magnetic-microswarm-for-active-endovascular-delivery-has-been-highlighted-as-hot-paper-top-0-1-link-2022-11-dr-wang-won-the-1st-xiaomi-young-talents-program-span5"
+            ><br /><br />[2023. 09] Our Springer book entitled Magnetic Micro
+            and Nanorobot Swarms: From Fundamentals to Applications is online!
+            This book is focused on the attractive emerging field of
+            micro-/nanorobot swarms (microswarms). It introduces fundamental
+            understandings of various microswarms and demonstrates applications
+            of micro-/nanorobot swarms in different fields. </span
+          ><span
+            class="_2023-span6"
+            ><a href="https://link.springer.com/book/9789819930357">[Link]</a><br /><br /></span
+          ><span
+            class="_2023-11-dr-wang-won-the-open-science-excellent-author-program-due-to-the-high-impact-of-our-advanced-intelligent-systems-article-link-which-received-more-than-6-000-downloads-in-3-months-from-worldside-researchers-2023-09-2023-l-ink-2023-09-our-springer-book-entitled-magnetic-micro-and-nanorobot-swarms-from-fundamentals-to-applications-is-online-this-book-is-focused-on-the-attractive-emerging-field-of-micro-nanorobot-swarms-microswarms-it-introduces-fundamental-understandings-of-various-microswarms-and-demonstrates-applications-of-micro-nanorobot-swarms-in-different-fields-link-2023-08-dr-wang-won-the-mine-outstanding-young-scientist-award-mine-2023-link-2023-03-our-science-advances-paper-ultrasound-doppler-guided-real-time-navigation-of-a-magnetic-microswarm-for-active-endovascular-delivery-has-been-highlighted-as-hot-paper-top-0-1-link-2022-11-dr-wang-won-the-1st-xiaomi-young-talents-program-span7"
+            >[2023. 08] Dr. Wang Won the MINE Outstanding Young Scientist
+            Award（“MINE 2023优秀青年科学家奖”）. </span
+          ><span
+            class="_2023-span8"
+            ><a href="https://mp.weixin.qq.com/s/Lc2xN5xDvLRi8hzPNjKGPQ">[Link]</a><br /></span
+          ><span
+            class="_2023-11-dr-wang-won-the-open-science-excellent-author-program-due-to-the-high-impact-of-our-advanced-intelligent-systems-article-link-which-received-more-than-6-000-downloads-in-3-months-from-worldside-researchers-2023-09-2023-l-ink-2023-09-our-springer-book-entitled-magnetic-micro-and-nanorobot-swarms-from-fundamentals-to-applications-is-online-this-book-is-focused-on-the-attractive-emerging-field-of-micro-nanorobot-swarms-microswarms-it-introduces-fundamental-understandings-of-various-microswarms-and-demonstrates-applications-of-micro-nanorobot-swarms-in-different-fields-link-2023-08-dr-wang-won-the-mine-outstanding-young-scientist-award-mine-2023-link-2023-03-our-science-advances-paper-ultrasound-doppler-guided-real-time-navigation-of-a-magnetic-microswarm-for-active-endovascular-delivery-has-been-highlighted-as-hot-paper-top-0-1-link-2022-11-dr-wang-won-the-1st-xiaomi-young-talents-program-span9"
+            ><br />[2023. 03]</span
+          ><span
+            class="_2023-11-dr-wang-won-the-open-science-excellent-author-program-due-to-the-high-impact-of-our-advanced-intelligent-systems-article-link-which-received-more-than-6-000-downloads-in-3-months-from-worldside-researchers-2023-09-2023-l-ink-2023-09-our-springer-book-entitled-magnetic-micro-and-nanorobot-swarms-from-fundamentals-to-applications-is-online-this-book-is-focused-on-the-attractive-emerging-field-of-micro-nanorobot-swarms-microswarms-it-introduces-fundamental-understandings-of-various-microswarms-and-demonstrates-applications-of-micro-nanorobot-swarms-in-different-fields-link-2023-08-dr-wang-won-the-mine-outstanding-young-scientist-award-mine-2023-link-2023-03-our-science-advances-paper-ultrasound-doppler-guided-real-time-navigation-of-a-magnetic-microswarm-for-active-endovascular-delivery-has-been-highlighted-as-hot-paper-top-0-1-link-2022-11-dr-wang-won-the-1st-xiaomi-young-talents-program-span10"
+            >Our Science Advances paper &quot;Ultrasound Doppler-guided
+            real-time navigation of a magnetic microswarm for active
+            endovascular delivery&quot; has been highlighted as &quot;Hot
+            Paper&quot; (Top 0.1%)!</span
+          ><span
+            class="_2023-span11"
+            ><a href="https://www.science.org/doi/full/10.1126/sciadv.abe5914">[Link]</a><br /></span
+          ><span
+            class="_2023-11-dr-wang-won-the-open-science-excellent-author-program-due-to-the-high-impact-of-our-advanced-intelligent-systems-article-link-which-received-more-than-6-000-downloads-in-3-months-from-worldside-researchers-2023-09-2023-l-ink-2023-09-our-springer-book-entitled-magnetic-micro-and-nanorobot-swarms-from-fundamentals-to-applications-is-online-this-book-is-focused-on-the-attractive-emerging-field-of-micro-nanorobot-swarms-microswarms-it-introduces-fundamental-understandings-of-various-microswarms-and-demonstrates-applications-of-micro-nanorobot-swarms-in-different-fields-link-2023-08-dr-wang-won-the-mine-outstanding-young-scientist-award-mine-2023-link-2023-03-our-science-advances-paper-ultrasound-doppler-guided-real-time-navigation-of-a-magnetic-microswarm-for-active-endovascular-delivery-has-been-highlighted-as-hot-paper-top-0-1-link-2022-11-dr-wang-won-the-1st-xiaomi-young-talents-program-span12"
+            ><br />[2022. 11] Dr. Wang won the 1st Xiaomi Young Talents
+            Program（首届“小米青年学者”）[</span
+          ><span
+            class="_2023-span13"
+            ><a href="https://mp.weixin.qq.com/s/ffFc8hxB74ggCxY_F0ms3w">小米公益基金会</a></span
+          ><span
+            class="_2023-11-dr-wang-won-the-open-science-excellent-author-program-due-to-the-high-impact-of-our-advanced-intelligent-systems-article-link-which-received-more-than-6-000-downloads-in-3-months-from-worldside-researchers-2023-09-2023-l-ink-2023-09-our-springer-book-entitled-magnetic-micro-and-nanorobot-swarms-from-fundamentals-to-applications-is-online-this-book-is-focused-on-the-attractive-emerging-field-of-micro-nanorobot-swarms-microswarms-it-introduces-fundamental-understandings-of-various-microswarms-and-demonstrates-applications-of-micro-nanorobot-swarms-in-different-fields-link-2023-08-dr-wang-won-the-mine-outstanding-young-scientist-award-mine-2023-link-2023-03-our-science-advances-paper-ultrasound-doppler-guided-real-time-navigation-of-a-magnetic-microswarm-for-active-endovascular-delivery-has-been-highlighted-as-hot-paper-top-0-1-link-2022-11-dr-wang-won-the-1st-xiaomi-young-talents-program-span14"
+            >] </span
+          ><span
+            class="_2023-span15"
+            ><a href="https://mp.weixin.qq.com/s/saWBJu5uC1peF6I-or7-_g">[东南大学教育基金会</a></span
+          ><span
+            class="_2023-11-dr-wang-won-the-open-science-excellent-author-program-due-to-the-high-impact-of-our-advanced-intelligent-systems-article-link-which-received-more-than-6-000-downloads-in-3-months-from-worldside-researchers-2023-09-2023-l-ink-2023-09-our-springer-book-entitled-magnetic-micro-and-nanorobot-swarms-from-fundamentals-to-applications-is-online-this-book-is-focused-on-the-attractive-emerging-field-of-micro-nanorobot-swarms-microswarms-it-introduces-fundamental-understandings-of-various-microswarms-and-demonstrates-applications-of-micro-nanorobot-swarms-in-different-fields-link-2023-08-dr-wang-won-the-mine-outstanding-young-scientist-award-mine-2023-link-2023-03-our-science-advances-paper-ultrasound-doppler-guided-real-time-navigation-of-a-magnetic-microswarm-for-active-endovascular-delivery-has-been-highlighted-as-hot-paper-top-0-1-link-2022-11-dr-wang-won-the-1st-xiaomi-young-talents-program-span16"
+            >]。</span
+          ></span
+        >
+      </div>
+      <div
+        class="keyords-small-scale-robotics-microrobotic-swarm-dynamic-self-assembly-and-micromanipulation-magnetic-control-medical-devices-flexible-multi-modal-micro-miniature-robot-and-micro-nano-medical-device"
+      >
+        Keyords: Small-scale Robotics (小尺度机器人学), Microrobotic swarm
+        (微机器人集群系统),Dynamic Self-assembly and Micromanipulation
+        (磁驱动的动态自组装及微操作), Magnetic control medical devices
+        (磁控医疗设备), Flexible Multi-modal micro-miniature Robot and
+        Micro-nano medical device(柔性多模态微小型机器人及微纳医疗器械).
+      </div>
+      <div
+        class="short-biography-of-pi-prof-qianqian-wang-joined-southeast-university-in-february-2022-and-is-now-serving-as-the-young-chief-professor-at-the-school-of-mechanical-engineering-as-well-as-a-doctoral-supervisor-he-was-selected-for-the-national-overseas-high-level-young-talents-program-and-was-among-the-first-recipients-of-the-xiaomi-young-scholar-and-the-mine-excellent-young-scientist-award-additionally-professor-wang-serves-as-an-associate-editor-guest-editor-and-reviewer-for-multiple-professional-journals-and-international-conferences-including-the-ieee-transactions-series-and-ieee-iros"
+      >
+        Short biography of PI: Prof. Qianqian Wang joined Southeast University
+        in February 2022 and is now serving as the Young Chief Professor at the
+        School of Mechanical Engineering, as well as a doctoral supervisor. He
+        was selected for the National &quot;Overseas High-Level Young Talents
+        Program&quot; and was among the first recipients of the &quot;Xiaomi
+        Young Scholar&quot; and the &quot;MINE Excellent Young Scientist
+        Award.&quot; Additionally, Professor Wang serves as an associate editor,
+        guest editor, and reviewer for multiple professional journals and
+        international conferences, including the IEEE Transactions Series and
+        IEEE IROS.
+      </div>
+      <div class="we-are-creating-the-future-here">
+        We are creating the future here
+      </div>
+      <a href="http://www.baidu.com">
+        <img class="image-2" src="image-20.png" />
+      </a><img
+        class="_22"
+        src="_21.png"
+      /><img class="_3" src="_30.png" />
+      <div
+        class="prof-qianqian-wang-intelligent-small-scale-robotics-lab-southeast-university"
+      >
+        Prof. Qianqian Wang, Intelligent Small-scale Robotics Lab, Southeast
+        University
+      </div>
+    </div>
+  </body>
 </html>
