@@ -1,0 +1,546 @@
+.mac-book-pro-16-1,
+.mac-book-pro-16-1 * {
+  box-sizing: border-box;
+}
+.mac-book-pro-16-1 {
+  background: #ffffff;
+  width: 1728px;
+  height: 2876px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-19 {
+  background: #eaeaea;
+  width: 1728px;
+  height: 283px;
+  position: absolute;
+  left: 0px;
+  top: 2593px;
+}
+.team {
+  color: #fccf00;
+  text-align: left;
+  font: 600 20px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 75px;
+  top: 2682px;
+  width: 60px;
+  height: 24px;
+}
+.news {
+  color: #587558;
+  text-align: left;
+  font: 600 20px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 75px;
+  top: 2719px;
+  width: 60px;
+  height: 23px;
+}
+.research {
+  color: #000000;
+  text-align: left;
+  font: 600 20px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 75px;
+  top: 2756px;
+  width: 95px;
+  height: 23px;
+}
+._1 {
+  width: 1732px;
+  height: 1562px;
+  position: absolute;
+  left: 0px;
+  top: 140px;
+}
+.rectangle-25 {
+  background: rgba(255, 255, 255, 0.88);
+  width: 1732px;
+  height: 1669px;
+  position: absolute;
+  left: 0px;
+  top: 33px;
+}
+.publications {
+  color: #000000;
+  text-align: left;
+  font: 800 20px "Inter-ExtraBold", sans-serif;
+  position: absolute;
+  left: 46px;
+  top: 325px;
+  width: 141px;
+  height: 23px;
+}
+.gallery {
+  color: #000000;
+  text-align: left;
+  font: 800 20px "Inter-ExtraBold", sans-serif;
+  position: absolute;
+  left: 46px;
+  top: 361px;
+  width: 111px;
+  height: 23px;
+}
+.gallery2 {
+  color: #000000;
+  text-align: left;
+  font: 600 20px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 75px;
+  top: 2829px;
+  width: 109px;
+  height: 24px;
+}
+.publications2 {
+  color: #000000;
+  text-align: left;
+  font: 600 20px "Inter-SemiBold", sans-serif;
+  position: absolute;
+  left: 75px;
+  top: 2793px;
+  width: 139px;
+  height: 23px;
+}
+.logo-1 {
+  width: 56px;
+  height: 60px;
+  position: absolute;
+  left: 1475px;
+  top: 2625px;
+}
+.logo-2 {
+  width: 60px;
+  height: 56px;
+  position: absolute;
+  left: 75px;
+  top: 2616px;
+}
+.news2 {
+  color: #000000;
+  text-align: left;
+  font: 700 48px "Inter-Bold", sans-serif;
+  position: absolute;
+  left: 791px;
+  top: 46px;
+  width: 147px;
+  height: 49px;
+}
+.image-2 {
+  width: 55px;
+  height: 55px;
+  position: absolute;
+  left: 1553px;
+  top: 2627px;
+}
+.prof-qianqian-wang-intelligent-small-scale-robotics-lab-southeast-university {
+  color: #000000;
+  text-align: left;
+  font: 500 16px "Inter-Medium", sans-serif;
+  position: absolute;
+  left: 1475px;
+  top: 2705px;
+  width: 200px;
+  height: 90px;
+}
+.team2 {
+  color: #000000;
+  text-align: left;
+  font: 800 20px "Inter-ExtraBold", sans-serif;
+  position: absolute;
+  left: 46px;
+  top: 217px;
+  width: 61px;
+  height: 23px;
+}
+.frame-1 {
+  width: 125px;
+  height: 163px;
+  position: absolute;
+  left: 45px;
+  top: 217px;
+  overflow: hidden;
+}
+.news3 {
+  color: #000000;
+  text-align: left;
+  font: 800 20px "Inter-ExtraBold", sans-serif;
+  position: absolute;
+  left: 2px;
+  top: 33px;
+  width: 61px;
+  height: 23px;
+}
+.research2 {
+  color: #000000;
+  text-align: left;
+  font: 800 20px "Inter-ExtraBold", sans-serif;
+  position: absolute;
+  left: 2px;
+  top: 69px;
+  width: 96px;
+  height: 23px;
+}
+.frame-2 {
+  width: 44px;
+  height: 163px;
+  position: absolute;
+  left: -44px;
+  top: 0px;
+  overflow: hidden;
+}
+.frame-5 {
+  width: 602px;
+  height: 311px;
+  position: absolute;
+  left: 250px;
+  top: 217px;
+  overflow: hidden;
+}
+.wiley-2 {
+  width: 602px;
+  height: 311px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-13 {
+  width: 602px;
+  height: 311px;
+  position: absolute;
+  left: 249px;
+  top: 592px;
+  overflow: hidden;
+}
+.wiley-1 {
+  width: 602px;
+  height: 311px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-9 {
+  width: 602px;
+  height: 311px;
+  position: absolute;
+  left: 249px;
+  top: 1343px;
+  overflow: visible;
+}
+.frame-11 {
+  width: 602px;
+  height: 311px;
+  position: absolute;
+  left: 249px;
+  top: 1766px;
+  overflow: visible;
+}
+.wiley-12 {
+  width: 602px;
+  height: 311px;
+  position: absolute;
+  left: 249px;
+  top: 2141px;
+}
+.polygon-13 {
+  width: 59px;
+  height: 35px;
+  position: absolute;
+  left: 825px;
+  top: 2421px;
+  transform: translate(0px, -55.05px);
+  overflow: visible;
+}
+.mine-13 {
+  border-radius: 3px;
+  width: 676px;
+  height: 312px;
+  position: absolute;
+  left: 249px;
+  top: 2141px;
+}
+.frame-17 {
+  width: 602px;
+  height: 309px;
+  position: absolute;
+  left: 249px;
+  top: 2144px;
+  overflow: hidden;
+}
+.xiaomi-1 {
+  width: 602px;
+  height: 309px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.frame-6 {
+  width: 699px;
+  height: 313px;
+  position: absolute;
+  left: 853px;
+  top: 216px;
+  overflow: hidden;
+}
+.november-2023 {
+  color: #587558;
+  text-align: left;
+  font: 800 32px "Inter-ExtraBold", sans-serif;
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  width: 571px;
+  height: 31px;
+}
+.dr-wang-won-the-open-science-excellent-author-program-due-to-the-high-impact-of-our-advanced-intelligent-systems-article-link {
+  color: #587558;
+  text-align: left;
+  font: 500 32px "Inter-Medium", sans-serif;
+  position: absolute;
+  left: 20px;
+  top: 156px;
+  width: 679px;
+  height: 155px;
+}
+.dr-wang-won-the-open-science-excellent-author-program-due-to-the-high-impact-of-our-advanced-intelligent-systems-article-link-span {
+  color: #587558;
+  font: 500 32px "Inter-Medium", sans-serif;
+}
+.dr-wang-won-the-open-science-excellent-author-program-due-to-the-high-impact-of-our-advanced-intelligent-systems-article-link-span2 {
+  color: #587558;
+  font: 500 32px "Inter-Medium", sans-serif;
+  text-decoration: underline;
+}
+.frame-14 {
+  width: 699px;
+  height: 313px;
+  position: absolute;
+  left: 853px;
+  top: 590px;
+  overflow: hidden;
+}
+.september-2023 {
+  color: #000000;
+  text-align: left;
+  font: 800 32px "Inter-ExtraBold", sans-serif;
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  width: 571px;
+  height: 31px;
+}
+.in-2023-during-the-teachers-day-celebration-assembly-teacher-wang-delivered-a-speech-as-a-representative-of-young-teachers-sharing-thoughts-and-insights-on-education-and-the-teacher-s-mission-link {
+  color: #000000;
+  text-align: left;
+  font: 500 32px "Inter-Medium", sans-serif;
+  position: absolute;
+  left: 20px;
+  top: 87px;
+  width: 679px;
+  height: 233px;
+}
+._304-d-69-d-7-a-1-c-65-b-727-f-8-e-297-e-164-a-968-1 {
+  width: 601px;
+  height: 311px;
+  position: absolute;
+  left: 249px;
+  top: 968px;
+}
+.frame-8 {
+  width: 699px;
+  height: 311px;
+  position: absolute;
+  left: 852px;
+  top: 968px;
+  overflow: hidden;
+}
+.september-20232 {
+  color: #000000;
+  text-align: left;
+  font: 800 32px "Inter-ExtraBold", sans-serif;
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  width: 378px;
+  height: 38px;
+}
+.our-springer-book-entitled-magnetic-micro-and-nanorobot-swarms-from-fundamentals-to-applications-is-online-link {
+  color: #000000;
+  text-align: left;
+  font: 500 32px "Inter-Medium", sans-serif;
+  position: absolute;
+  left: 20px;
+  top: 155px;
+  width: 679px;
+  height: 155px;
+}
+.our-springer-book-entitled-magnetic-micro-and-nanorobot-swarms-from-fundamentals-to-applications-is-online-link-span {
+  color: #000000;
+  font: 500 32px "Inter-Medium", sans-serif;
+}
+.our-springer-book-entitled-magnetic-micro-and-nanorobot-swarms-from-fundamentals-to-applications-is-online-link-span2 {
+  color: #000000;
+  font: 500 32px "Inter-Medium", sans-serif;
+  text-decoration: underline;
+}
+.frame-10 {
+  width: 699px;
+  height: 311px;
+  position: absolute;
+  left: 852px;
+  top: 1342px;
+  overflow: hidden;
+}
+.dr-wang-won-the-mine-outstanding-young-scientist-award-mine-2023-link {
+  color: #000000;
+  text-align: left;
+  font: 500 32px "Inter-Medium", sans-serif;
+  position: absolute;
+  left: 22px;
+  top: 195px;
+  width: 678px;
+  height: 116px;
+}
+.dr-wang-won-the-mine-outstanding-young-scientist-award-mine-2023-link-span {
+  color: #000000;
+  font: 500 32px "Inter-Medium", sans-serif;
+}
+.dr-wang-won-the-mine-outstanding-young-scientist-award-mine-2023-link-span2 {
+  color: #000000;
+  font: 500 32px "Inter-Medium", sans-serif;
+  text-decoration: underline;
+}
+.august-2023 {
+  color: #000000;
+  text-align: left;
+  font: 800 32px "Inter-ExtraBold", sans-serif;
+  position: absolute;
+  left: 21px;
+  top: 0px;
+  width: 378px;
+  height: 38px;
+}
+.frame-12 {
+  width: 699px;
+  height: 311px;
+  position: absolute;
+  left: 852px;
+  top: 1766px;
+  overflow: hidden;
+}
+.our-science-advances-paper-ultrasound-doppler-guided-real-time-navigation-of-a-magnetic-microswarm-for-active-endovascular-delivery-has-been-highlighted-as-hot-paper-top-0-1-link {
+  color: #000000;
+  text-align: left;
+  font: 500 32px "Inter-Medium", sans-serif;
+  position: absolute;
+  left: 23px;
+  top: 85px;
+  width: 641px;
+  height: 225px;
+}
+.our-science-advances-paper-ultrasound-doppler-guided-real-time-navigation-of-a-magnetic-microswarm-for-active-endovascular-delivery-has-been-highlighted-as-hot-paper-top-0-1-link-span {
+  color: #000000;
+  font: 500 32px "Inter-Medium", sans-serif;
+}
+.our-science-advances-paper-ultrasound-doppler-guided-real-time-navigation-of-a-magnetic-microswarm-for-active-endovascular-delivery-has-been-highlighted-as-hot-paper-top-0-1-link-span2 {
+  color: #000000;
+  font: 500 32px "Inter-Medium", sans-serif;
+  text-decoration: underline;
+}
+.march-2023 {
+  color: #000000;
+  text-align: left;
+  font: 800 32px "Inter-ExtraBold", sans-serif;
+  position: absolute;
+  left: 23px;
+  top: 0px;
+  width: 378px;
+  height: 38px;
+}
+.dr-wang-won-the-1st-xiaomi-young-talents-program {
+  color: #000000;
+  text-align: left;
+  font: 500 32px "Inter-Medium", sans-serif;
+  position: absolute;
+  left: 875px;
+  top: 2336px;
+  width: 641px;
+  height: 116px;
+}
+.dr-wang-won-the-1st-xiaomi-young-talents-program-span {
+  color: #000000;
+  font: 500 32px "Inter-Medium", sans-serif;
+}
+.dr-wang-won-the-1st-xiaomi-young-talents-program-span2 {
+  color: #000000;
+  font: 500 32px "Inter-Medium", sans-serif;
+  text-decoration: underline;
+}
+.dr-wang-won-the-1st-xiaomi-young-talents-program-span3 {
+  color: #000000;
+  font: 500 32px "Inter-Medium", sans-serif;
+}
+.dr-wang-won-the-1st-xiaomi-young-talents-program-span4 {
+  color: #000000;
+  font: 500 32px "Inter-Medium", sans-serif;
+  text-decoration: underline;
+}
+.dr-wang-won-the-1st-xiaomi-young-talents-program-span5 {
+  color: #000000;
+  font: 500 32px "Inter-Medium", sans-serif;
+}
+.november-20232 {
+  color: #000000;
+  text-align: left;
+  font: 800 32px "Inter-ExtraBold", sans-serif;
+  position: absolute;
+  left: 875px;
+  top: 2141px;
+  width: 378px;
+  height: 38px;
+}
+.polygon-14 {
+  width: 51.1px;
+  height: 26.25px;
+  position: absolute;
+  left: 827px;
+  top: 722.05px;
+  overflow: visible;
+}
+._12 {
+  width: 603px;
+  height: 310px;
+  position: absolute;
+  left: 249px;
+  top: 593px;
+}
+.logo-3 {
+  width: 206px;
+  height: 103px;
+  position: absolute;
+  left: 68px;
+  top: 18px;
+}
+._13 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1663px;
+  top: 56px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(-1, 1);
+}
+._14 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1520px;
+  top: 56px;
+}
+._15 {
+  width: 29px;
+  height: 24px;
+  position: absolute;
+  left: 1577px;
+  top: 56px;
+}
